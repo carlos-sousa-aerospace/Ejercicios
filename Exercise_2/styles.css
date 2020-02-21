@@ -8,20 +8,16 @@ p {
     font-family: 'Roboto';
 }
 
-#resultLabel {
-    display: block;
+#result-box {
     margin-top: 2em;
     margin-bottom: 0px;
+    padding: 0.5em;
+    width: 400px;
+    height: 4em;
+    border: 1px solid black;
 }
 
 #result {
     width: 400px;
-    height: 25px;
     font-size: 20px;
-}
-
-#result-box {
-    width: 400px;
-    height: 4em;
-    border: 1px solid black;
 }
