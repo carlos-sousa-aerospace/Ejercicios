@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="area-circle">
+        <h1 id="mainTitle">Area Calculator</h1>
+
         <label for="radius">Please enter the radius of the circle</label>
         <input type="text" id="radius"><br>
         <p>
@@ -16,10 +20,11 @@
             <button onclick="myFunction()">Calculate</button>
         </p>
 
-        <label for="result">The area of the circle is:</label>
-        <p id="result"></p>
+        <div id="result-box">
+            <label for="result" id="resultLabel">The area of the circle is:</label>
+            <p id="result"></p>
+        </div>
     </div>
     <script src="area.js"></script>
 </body>
-
 </html>

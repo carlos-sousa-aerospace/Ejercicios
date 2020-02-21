@@ -1,0 +1,27 @@
+p {
+    text-indent: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.area-circle {
+    font-family: 'Roboto';
+}
+
+#resultLabel {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0px;
+}
+
+#result {
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+}
+
+#result-box {
+    width: 400px;
+    height: 4em;
+    border: 1px solid black;
+}
